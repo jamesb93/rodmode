@@ -1,0 +1,30 @@
+{
+    "time": "18:50:56 | July 29, 2020",
+    "commit_hash": "a2b0a711158f6020f0ebde9d2db6be27229a497f",
+    "io": "['/Users/james/dev/rodmode/Testing Hits']",
+    "analyser": {
+        "0_FluidMFCC": {
+            "name": "FluidMFCC",
+            "order": 0,
+            "fftsettings": [
+                1024,
+                512,
+                1024
+            ],
+            "numbands": 40,
+            "numcoeffs": 20,
+            "minfreq": 80,
+            "maxfreq": 20000
+        },
+        "1_Stats": {
+            "name": "Stats",
+            "order": 1,
+            "numderivs": 1,
+            "flatten": true
+        }
+    },
+    "success": {
+        "0_FluidMFCC": true,
+        "1_Stats": true
+    }
+}
